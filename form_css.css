@@ -1,0 +1,34 @@
+body{
+    background-color: darkcyan;
+    font-family:system-ui ;
+}
+.log{
+
+    min-height: 20%;
+    max-height: 20%;
+    margin: 10%;
+    background-color: azure;
+    border-radius: 3%;
+
+}
+.form{
+    margin: 10%;
+    margin-bottom: 40%;
+}
+.titulo{
+    margin: 20%;
+    font-family:system-ui ;
+    font-size: 40;
+
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
